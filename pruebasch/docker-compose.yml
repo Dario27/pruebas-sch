@@ -17,7 +17,7 @@ services:
 
   api:
     build:
-      context: Dockerfile
+      context: .
     container_name: api_service
     environment:
       DB_HOST: db
